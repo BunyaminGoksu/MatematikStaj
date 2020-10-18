@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+
+ul {
+    background: #52B700;
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    padding: 12px 14px;
+    background-color: #52B700;
+    font-size: 17px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 700px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px 20px;
+    background-color: #52B700;
+    color: #FFFCE7;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FFFFFF;
+}
+
+.Sınıf1 {
+    border: 2px solid #F39317;
+    padding: 10px 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    color: #F39317;
+    margin: 20px;
+    margin-left: 265px;
+    float: left;
+    position: relative;
+}
+
+.Sınıf2 {
+    border: 2px solid #43AE19;
+    padding: 10px 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    color: #43AE19;
+    margin: 20px;
+    margin-left: 200px;
+    float: left;
+    position: relative;
+}
+
+.Sınıf3 {
+    border: 2px solid#00A1DE;
+    padding: 10px 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    color: #00A1DE;
+    margin: 20px;
+    margin-left: 265px;
+    float: left;
+    position: relative;
+}
+
+.Sınıf4 {
+    border: 2px solid#D74726;
+    padding: 10px 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    color: #D74726;
+    margin: 20px;
+    margin-left: 200px;
+    float: left;
+    position: relative;
+}
+
+.söz {
+    width: 100%;
+    height: auto;
+    background: #11B3F1;
+    float: left;
+}
+
+.söz2 {
+    border: 2px solid #FFFFFF;
+    padding: 10px 40px;
+    width: 600px;
+    height: 250px;
+    color: #FFFFFF;
+    margin-left: 420px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+}

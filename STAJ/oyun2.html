@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+    <title>Matematik Oyunu</title>
+
+    <link rel="stylesheet" href="oyun2.css">
+</head>
+
+<body>
+    <main>
+        <div id="container">
+            <p id="message" class="structure-elements"></p>
+            <aside id="score" class="structure-elements">Sonuç: <span>00</span></aside>
+
+            <div id="calculation">
+                <section id="question" class="structure-elements"></section>
+                <p id="instruction" class="structure-elements">Doğru cevabı işaretle</p>
+                <ul id="choices" class="structure-elements">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <button id="start-reset" class="structure-elements">Başla!</button>
+
+            <aside id="time-remaining" class="structure-elements">Kalan süre: <span>60</span> saniye</aside>
+        </div>
+
+        <div id="game-over" class="structure-elements">
+            <p>Oyun Bitti!</p>
+            <p>Doğru cevapladığın soru <span>00</span>.</p>
+        </div>
+    </main>
+
+    <script src="oyun2.js"></script>
+</body>
+
+</html>
